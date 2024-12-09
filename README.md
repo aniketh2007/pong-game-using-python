@@ -1,5 +1,9 @@
 # pong-game-using-python
-pong game was developed using python.
-Module: Turtle and its object-oriented programing (object, class, attributes, Inheritance). 
-Creating scoreboard, left and right paddle and ball.
-To detect collision with the walls and paddles.
+- Ping Pong game was developed using Python and its learns. It requires 2 users to play the game the controls are W and S, Up and Down arrow keys.
+- Developed using the concepts such as Object Oriented Programming, Turtle Module, Class Inheritance.
+- Step 1 : Setting up  the screen using turtle () module and screen method changing the bgcolor, title, exitonclick, setup for setting the screen.
+- Step 2 : Creation of the paddle and movement of the paddle. We create a new turtle object and create a new file called paddle in the we create and initialize the shape, shapesize,and using class inheritance to inherit all the properties of the Turtle class, and pass in a keyword argument to be given for the l_paddle and r_paddle, tracer() method to cut the animation of moving the paddle and update() method later and using listen () method and onkey() method to take inputs from the user.
+- Step 3 : Create the ball  and make it move constantly. We again use the concept of class inheritance to inherit from Turtle class. And create all the required things like shape color and create a move() method and using goto() method to move the ball to the X,Y axis.
+- Step 4 : Detect collision with the wall  when the ball hits the wall the ball should move in the opposite direction it should applicable for the up and down walls. it is achieved by multiplying with -1.
+- Step 5 : Detect of collision with the paddle. During collision with the paddle it should be confide to so amount of wall with the paddle when it comes with the contect of the wall it should move in the opposite direction that is along x_cor it is also achieved by multiplying with -1.
+- Step 6: Score keeping. Again using class inheritance and using write () method to write the score scored by the user and when the ball hits the paddle the speed is increased by a small amount and when the user misses the ball and ball is restet and the speed is also set to as the earlier one.
